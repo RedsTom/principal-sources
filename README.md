@@ -1,3 +1,5 @@
+<h1>Principal, stable 1.0</h1>
+
 Un plugin pour toutes vos envies qui est un concurrent direct d'Essentials.
 Il comporte les commandes:
 
