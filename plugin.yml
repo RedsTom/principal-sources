@@ -1,0 +1,100 @@
+name: Principal
+version: 01.0
+authors: [Mr_RedsTom]
+main: fr.mrredstom.principal.Main
+softdepend: [LycheeAPI]
+commands: 
+
+
+  gmc:
+    permission: principal.gamemode.creative
+    description: principal.gamemode.creative
+  gms:
+    permission: principal.gamemode.survival
+    description: principal.gamemode.survival
+  gma:
+    permission: principal.gamemode.adventure
+    description: principal.gamemode.adventure
+  gmsp:
+    permission: principal.gamemode.spectator
+    description: principal.gamemode.specator
+  gamemode:
+    permission: principal.gamemode.*
+    description: principal.gamemode.*
+    aliases: [gm]
+
+
+  clear:
+    permission: principal.clear
+    description: principal.clear
+  heal:
+    permission: principal.heal
+    description: principal.heal
+  feed:
+    permission: principal.feed
+    description: principal.feed
+  speed:
+    permission: principal.speed
+    description: principal.speed
+  time:
+    permission: principal.settime
+    description: principal.settime
+  day:
+    permission: principal.settime
+    description: principal.settime
+  night:
+    permission: principal.settime
+    description: principal.settime
+
+  god:
+    permission: principal.mod.god
+    description: principal.mod.god
+  op:
+    permission: minecraft.mod.op
+    description: principal.mod.op
+  deop:
+    permission: minecraft.mod.deop
+    description: principal.mod.deop
+  error:
+    permission: principal.mod.viewerror
+    description: principal.mod.viewerror
+  vanish:
+    permission: principal.mod.vanish
+    description: principal.mod.vanish
+    aliases: [v]
+  sudo:
+    permission: principal.mod.sudo
+    description: principal.mod.sudo
+    aliases:
+      - fairefaireunecommandeouunmessagedanslechataunjoueur
+
+  tp:
+    permission: principal.teleport
+    description: principal.teleport
+  tphere:
+    permission: principal.teleport.here
+    description: principal.teleport.here
+  sethub:
+    permission: principal.sethub
+    description: principal.sethub
+  setlobby:
+    permission: principal.sethub
+    description: principal.sethub
+  lobby:
+    permission: principal.teleport.hub
+    description: principal.teleport.hub
+  hub:
+    permission: principal.teleport.hub
+    description: principal.teleport.hub
+  vtp:
+    description: Commande vanilla de TP
+    
+  
+  broadcast:
+    permission: principal.broadcast
+    description: principal.broadcast
+    aliases: [bc]
+  msg:
+    permission: principal.messages
+    description: principal.messages
+    aliases: [m, w, mail]
