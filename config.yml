@@ -1,0 +1,8 @@
+prefix: "§c§l[§6§lPrincipal§c§l]"
+modPrefix: "&b&l[&9PMod&b&l]&6"
+hubPosition: 
+joinPrefix: "&6[&b+&6]&9"
+onJoinMessage: "Bonjour #playername# content de te revoir"
+quitPrefix: "&6[&c-&6]&9"
+broadcastPrefix: "&c[&aBroadcast&c] &e"
+lang: "FR_fr"
